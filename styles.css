@@ -1,0 +1,135 @@
+ul{
+    flex-wrap:wrap;
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+nav{
+    background-color: lightblue;
+    color: black;
+    vertical-align: middle;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+body{
+    font-family: TimesNewRoman, serif;
+}
+
+.body-content{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    background-color: lightblue;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+}
+button{
+    background-color: lightblue;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.laptop{
+    width: 300px;
+    height: 300px;
+    border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+}
+.flex-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+footer img,.laptop img,.profile img{
+    object-fit: contain;
+}
+.about-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+}
+.about-text ul{
+    display: block;
+}
+.about-text li{
+    list-style-type: disc;
+    padding-left: 20px;
+    align-items: flex-start;
+}
+.home-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.skill-card{
+    background-color: lightslategrey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    border-left: 10px solid white;
+
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-left: 20%;
+}
